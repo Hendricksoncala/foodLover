@@ -9,38 +9,20 @@
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
+    background-color: #000000;
 
   
 }
 
-.imgplato{ 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; 
-    position: relative;
-    z-index: 1;
-    top: 100px;
-    left: -100px;
-    
-}
 
-
-body {
-    margin: 0;
-    padding: 0;
-    width: 100vw;
-    height: 100vh;
-    
-}
-
+/*menu de parte superior----------------------------------------*/
 .menuarriba {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     height: 20vh;
-    position: absolute;
+    position: relative;
 
 }
 
@@ -75,6 +57,27 @@ body {
 .menuder a:hover{
     cursor: pointer;
 }
+
+/*fondo y ubicaciones--------------------------------------------*/
+.imgplato{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; 
+    position: relative;
+    z-index: 1;
+    top: 0px;
+    left: 0px;   
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    
+}
 .fondo1{
     background-size: cover;
     background-position: center;
@@ -91,7 +94,8 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-image: linear-gradient(rgba(52, 51, 58, 0.8), rgba(52, 51, 58, 0.8)), url("../storage/img/img1.png");
+    color: #00000088;
+    background-image: linear-gradient(#0b0b0ccc, rgba(52, 51, 58, 0.8)), url("../storage/img/img1.png");
 }
 .textBreakfast{
     width: 400px;
@@ -122,6 +126,9 @@ h1{
     color: #e58f00;
 
 }
+p{
+    color:white
+}
 h1, p, a{
     font-family: "Roboto Slab", serif, bold ;
     font-optical-sizing: auto;
@@ -129,6 +136,7 @@ h1, p, a{
     font-style: normal;
     text-decoration: none;
     font-weight: 900;
+    
 }
 
 button{
@@ -141,4 +149,54 @@ button{
     font-weight: 900;
     
 }
+/* parte de la segunda ventana--------------------------------------*/
+.container2{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: linear-gradient(hwb(0 0% 100%),rgb(0, 0, 0));
 
+
+}
+.imagen2ventana{
+    
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 700px;
+    height: 700px;
+    background: #000000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px;
+
+    
+
+}
+.textAboutUs{
+    background: #000000;
+    width: 400px;
+    position: relative;
+    font-weight: 900;
+    background-color: black;
+    
+}
+.cont2vent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    position: relative;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    background-color:hsl(0, 0%, 0%);
+    
+}
