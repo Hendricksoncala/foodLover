@@ -1,18 +1,28 @@
 @import url(style.css);
+
 *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
     border: 1px black solid;
+    font-family: "Roboto Slab", serif, bold;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+  
 }
 
-.imgplato{
+.imgplato{ 
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
-    height: 100%;
-    width: 100%;
-    padding-left: 10%;
+    height: 100vh; 
     position: relative;
-    z-index: -1;
-    top: -100px;
+    z-index: 1;
+    top: 100px;
+    left: -100px;
+    
 }
 
 
@@ -21,6 +31,7 @@ body {
     padding: 0;
     width: 100vw;
     height: 100vh;
+    
 }
 
 .menuarriba {
@@ -30,6 +41,7 @@ body {
     width: 100%;
     height: 20vh;
     position: absolute;
+
 }
 
 .menuizq,
@@ -42,7 +54,8 @@ body {
     flex-direction: row;
     margin-right: 10px;
     justify-content: space-between;
-    cursor: pointer
+    cursor: pointer;
+    
 }
 
 
@@ -53,25 +66,79 @@ body {
     margin-right: 10px;
     justify-content: space-between;
     padding: 5%;
-    cursor: pointer
+    cursor: pointer;
+    color: #e58f00;
+    text-decoration: none;
+    
 
 }
 .menuder a:hover{
     cursor: pointer;
 }
 .fondo1{
-    background-image: url(../storage/img/img1.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
-    opacity: 0.7;
-    position: absolute;
     background-size: cover;
-    z-index: -1;
+    
 }
 .container{
     height: 100%;
     width: 100%;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: linear-gradient(rgba(52, 51, 58, 0.8), rgba(52, 51, 58, 0.8)), url("../storage/img/img1.png");
 }
+.textBreakfast{
+    width: 400px;
+    height: none;
+    position: relative;
+    right: -50px;
+    font-size: 22px;
+    line-height: 1.2;
+    letter-spacing: -0.007em;
+    font-style: normal;
+    font-weight: 782;
+}
+
+.content1{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: none;
+    display: flex;
+    justify-content: center;
+    order: 1;
+    color: #e58f00;
+    
+    
+}
+h1{
+    margin-bottom: 15px;
+    color: #e58f00;
+
+}
+h1, p, a{
+    font-family: "Roboto Slab", serif, bold ;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+button{
+    padding: 15px;
+    background-color: #e58f00;
+    width: 150px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: large;
+    font-weight: 900;
+    
+}
+
