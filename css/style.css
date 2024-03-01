@@ -237,11 +237,13 @@ button{
 }
 .textoamarillo{
     position: absolute;
-    top:0px;
-    background: #000000;
-    width: 400px;
-    position: absolute;
-    font-weight: 900;
-    background-color: black;
-    font-size: 25px;
+    top:400px;
+    left: 259px;
+    width: 35%;
+    font-weight: 00;
+    font-size: 50px;
+    
 }
+.textoamarillo, h1, p{
+    color: white;
+} 
