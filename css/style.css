@@ -9,6 +9,7 @@
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
+    
 
   
 }
@@ -277,3 +278,82 @@ button{
 }
 
 /*ejoy our food*/
+.ultimacena {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Ajustar según sea necesario */
+    background-image: url('ruta/de/tu/imagen.jpg'); /* Reemplaza con la ruta de tu imagen */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Aplicar estilos al contenedor de texto */
+.textpagina5 {
+    text-align: center;
+    padding: 20px; /* Ajusta según sea necesario */
+    border: 10px solid #e58f00;
+    background-color: black;
+}
+
+/* Estilo para el título h2 dentro del contenedor de texto */
+.textpagina5 h2 {
+    margin-bottom: 10px; /* Espaciado inferior del título */
+    color: white; /* Color del texto del título */
+}
+
+/* Estilo para el párrafo p dentro del contenedor de texto */
+.textpagina5 p {
+    margin: 0; /* Elimina el margen predeterminado del párrafo */
+    color: white; /* Color del texto del párrafo */
+    font-weight: 900; /* Puedes ajustar el peso de la fuente según sea necesario */
+    font-size: 25px; /* Puedes ajustar el tamaño de la fuente según sea necesario */
+    
+
+}
+.pagina5 h2,p{
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+}
+/*6m pagina*/
+.sextapagina {
+    padding-top: 100px;
+    background: #000000;
+}
+
+.sextapagina h1 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    padding-bottom: 2em;
+}
+
+.sextapagina h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #e58f00;
+    font-size: 25px;
+}
+
+.sextapagina h3 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #e58f00;
+    font-size: 25px;
+}
+
+.sextapagina p {
+    width: 400px;
+    color: white;
+}
+
+.menuss {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1em 1em;
+}
+
+
