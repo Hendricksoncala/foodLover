@@ -242,10 +242,8 @@ button{
     position: absolute;
     font-weight: 900;
     font-size: 25px;
-    top: 0px;
     
-    
-    
+       
 }
 .textoamarillo, h1, p{
     color: white;
@@ -279,11 +277,20 @@ button{
 }
 
 /*ejoy our food*/
+.pagina5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/storage/img/ultimacena.png"); 
+    background-size: cover;
+    height: 1000px;
+  }
+
+
 .ultimacena {
-    position: relative;
     width: 100%;
     height: 100vh; /* Ajustar según sea necesario */
-    background-image: url('ruta/de/tu/imagen.jpg'); /* Reemplaza con la ruta de tu imagen */
+    background-image: url('ruta/de/tu/.ultimacena.jpg'); /* Reemplaza con la ruta de tu imagen */
     background-size: cover;
     background-position: center;
     display: flex;
@@ -293,20 +300,21 @@ button{
 
 /* Aplicar estilos al contenedor de texto */
 .textpagina5 {
-    text-align: center;
-    padding: 20px; /* Ajusta según sea necesario */
+    text-align: justify;
+    padding: 40px; 
     border: 10px solid #e58f00;
     background-color: black;
+    width: 40%;
 }
 
 /* Estilo para el título h2 dentro del contenedor de texto */
-.textpagina5 h2 {
+.textpagina5, h2 {
     margin-bottom: 10px; /* Espaciado inferior del título */
     color: white; /* Color del texto del título */
 }
 
 /* Estilo para el párrafo p dentro del contenedor de texto */
-.textpagina5 p {
+.textpagina5, p {
     margin: 0; /* Elimina el margen predeterminado del párrafo */
     color: white; /* Color del texto del párrafo */
     font-weight: 900; /* Puedes ajustar el peso de la fuente según sea necesario */
@@ -314,7 +322,7 @@ button{
     
 
 }
-.pagina5 h2,p{
+.textpagina5 h2,p{
     display: flex;
     justify-content: space-around;
     align-items:center ;
