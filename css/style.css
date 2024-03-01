@@ -210,6 +210,7 @@ button{
 /**/
 .totalamarilla{
     position: relative; 
+    background-color: #000000;
 }
 
 .amarilla{
@@ -239,11 +240,40 @@ button{
     position: absolute;
     top:400px;
     left: 259px;
-    width: 35%;
-    font-weight: 00;
+    width: 35%; 
     font-size: 50px;
+    
     
 }
 .textoamarillo, h1, p{
     color: white;
 } 
+
+/*ventana de las 6 imageners*/
+.ourfoodgallery{
+    background-color: #000000;
+}
+.textgallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    font-size: 50px;
+    font-weight: 900;
+    color: white
+    
+}
+.imggallery{
+    display: flex;
+    flex-wrap: wrap; /* Permite que las imágenes se envuelvan en una nueva línea cuando no hay espacio */
+    justify-content: space-evenly; /* Distribuye el espacio entre las imágenes de manera uniforme */
+    /* Puedes ajustar el ancho máximo según sea necesario */
+}
+
+.imggallery img {
+    width: 25%; /* Ajusta el ancho de las imágenes según tus necesidades */
+    height: auto;
+    margin: 20px; /* Espacio entre las imágenes */
+}
+
+/*ejoy our food*/
