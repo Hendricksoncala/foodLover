@@ -305,7 +305,7 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("./storage/img/ultimacena.png"); 
+    background-image: url("../storage/img/ultimacena.png"); 
     background-size: cover;
     height: 100%;
   }
@@ -314,7 +314,7 @@ button{
 .ultimacena {
     width: 100%;
     height: 100vh; /* Ajustar según sea necesario */
-    background-image: url('ruta/de/tu/.ultimacena.jpg'); /* Reemplaza con la ruta de tu imagen */
+    background-image: url('/storage/img/ultimacena.png'); /* Reemplaza con la ruta de tu imagen */
     background-size: cover;
     background-position: center;
     display: flex;
