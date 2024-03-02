@@ -305,7 +305,7 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("/storage/img/ultimacena.png"); 
+    background-image: url("./storage/img/ultimacena.png"); 
     background-size: cover;
     height: 100%;
   }
